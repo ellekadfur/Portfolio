@@ -1,0 +1,75 @@
+article,
+section,
+aside,
+hgroup,
+nav,
+header,
+footer,
+figure,
+figcaption {
+  display: block;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 10px auto;
+    width: 100%;
+    max-height: 0;
+    clear: both;
+    border: none;
+    border-top: 4px solid #7d97ad;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h3 {
+    text-indent: 20px;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 48px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.image-top {
+    padding-top:20px;
+}
+
+.text-right {
+    text-align: right
+}
+.text-center, p {
+    text-align: center
+}
+
+.blue-color,
+h3,
+h4,
+p {
+    color: #2d3c49;
+}
+
+.light-blue-color {
+    color: #7d97ad;
+}
+
+.bright-blue-color {
+    color: #02b3e4;
+}
